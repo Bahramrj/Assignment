@@ -29,9 +29,10 @@ Here is the link to our [user Personas](https://github.com/Bahramrj/Assignment/b
 **About Us**
 
 Hello guys!
-Welcome to grex.game, your best source for all things related to video game and news around it. We're dedicated to giving you the very best of video games and News.
+Welcome to gamerex.com, your best source for all things related to video game and news around it. We're dedicated to giving you the very best of video games and News.
 We started our website and online shop in 2021-11-01. Gamerex has come a long way from its beginnings in cottbus located in Germany.
 We hope you enjoy our website as much as We enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us.
+Our mission is to give you the best game consulting.
 
 Sincerely, G-rex team
 
