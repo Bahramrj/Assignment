@@ -17,7 +17,7 @@ Contact info:
   website: gamerex.com
   instagram: @gamerex
   Facebook: gamerex
-  Twiter: @gamerex
+  Twitter: @gamerex
 ```
 We run a small store that selling video games, and any thing related to video game for now we need a website that can sell our
 video game Discs online. and to make it more interesting share some news about video game on our website.  
