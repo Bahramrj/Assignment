@@ -14,7 +14,7 @@ Address of business: Universitatstrasse 1, Cottbus, Germany
 Contact info:
 	email: info@gamerex.com
 	phone number: +49123456789
-  website: grex.game
+  website: gamerex.com
   instagram: @gamerex
   Facebook: gamerex
   Twiter: @gamerex
