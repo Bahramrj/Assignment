@@ -12,8 +12,8 @@ GitHub: https://github.com/Bahramrj/Assignment.git
 Business name: Gamerex or (G-rex) for short
 Address of business: Universitatstrasse 1, Cottbus, Germany
 Contact info:
-	email: info@gamerex.com
-	phone number: +49123456789
+  email: info@gamerex.com
+  phone number: +49123456789
   website: gamerex.com
   instagram: @gamerex
   Facebook: gamerex
