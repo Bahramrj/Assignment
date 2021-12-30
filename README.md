@@ -127,3 +127,32 @@ The player starts randomly on the map, but usually on a stretch of beach in the 
 Description\
 DayZ is an open-world game of the survival horror genre, there are no game objectives in the real sense. The only goal is to fight your way through in order to survive. The player must move through the 225 km2 game world as quietly as possible for the most part, since walking or running generates noise, which attracts zombies that are in the vicinity. Loud gunshots also attract the attention of the zombies. However, by using silenced and silent weapons such as a hatchet, chisel or crossbow, the player can defend himself without attracting attention. On wide plains, one is more visible to zombies; ducking or crawling reduces visibility. If a survivor is injured, he must bandage his wounds and receive a transfusion from another player if blood loss is high. Broken bones must be treated with morphine, or a splint made of wooden sticks and bandages. After fierce fights and severe injuries, the player may panic or be in pain. Panic is represented by a symbol, while pain leads to strong trembling, which makes aiming the weapon enormously difficult. Pain can be treated with painkillers. In addition, it is possible to catch a cold and develop a fever. In order to warm up or recover, campfires can be lit, heat packs or precautionary warm clothes can be used, if found. Additionally, the player is forced to eat and drink regularly to avoid starving or dying of thirst. The vast terrain is bordered by sea to the south and east. If the player crosses the border to the north or west, he enters a monotonous grassy landscape that no longer has any traces of civilization or vegetation. Since the player will not find any food in this endless wasteland, he will be forced to turn back sooner or later. There are weather effects in the game world, which also have an influence on the gameplay. When it rains, the body temperature slowly drops, which can cause a cold or diseases like cholera, dysentery and hepatitis; when it's sunny, the game character warms up. Furthermore, there are day and night changes. At night, flashlights, bengal flares, glow sticks or night vision devices provide visibility, although the former can in turn attract unwanted attention. Communication with other players is possible via a voice chat function or hand signals. The death of the character is permanent. The player loses his equipment and starts from scratch again. However, since the character's corpse is not lost, all items can be picked up again unless another player has already done so or the corpse has disappeared (aka despawned).\
 Source: https://de.wikipedia.org/wiki/DayZ
+
+
+### Division of work
+<table>
+    <tr>
+        <th>Task</th>
+        <th>Responsible person</th>
+    </tr>
+    <tr>
+        <th>x html pages (Desktop version)</th>
+        <th>-</th>
+    </tr>
+    <tr>
+        <th>Webpages mobile & tablet version</th>
+        <th>-</th>
+    </tr>
+    <tr>
+        <th>CSS Styling</th>
+        <th>-</th>
+    </tr>
+    <tr>
+        <th>Prototype (home.html desktop version)</th>
+        <th>-</th>
+    </tr>
+    <tr>
+        <th>Prototype (home.html mobile/tablet version)</th>
+        <th>-</th>
+    </tr>
+</table>
