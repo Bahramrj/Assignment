@@ -26,6 +26,7 @@ footer {
     padding-top: 10px;
     padding-right: 10%;
     padding-left: 10%;
+    
     border-style: solid;
     border-top: none;
     border-left: none;
@@ -59,4 +60,22 @@ footer {
     text-align: center;
     text-decoration: none;
     font-size: xx-large;
+}
+
+.live-news {
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: black;
+    border-width: 2px;
+}
+
+.news-table {
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: black;
+    border-width: 2px;
 }
