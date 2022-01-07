@@ -1,0 +1,62 @@
+body {
+    background-color: white;
+    color: white;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    width: 100%;
+    background-color: white;
+    color: white;
+    text-align: center;
+    clear: both;
+    position: relative;
+    height: 25px;
+    margin-top: auto;
+}
+
+.topnav {
+    text-align: center;
+    overflow: hidden;
+    background-color: white;
+    height: 100%;
+    padding-top: 10px;
+    padding-right: 10%;
+    padding-left: 10%;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: black;
+    border-width: 2px;
+}
+
+.navlink {
+    width: 100px;
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: large;
+}
+
+.logo {
+    float: left;
+    max-height: 50px;
+    padding-right: 20px;
+}
+
+.logo.title {
+    padding-top: 5px;
+    width: 100px;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: xx-large;
+}
