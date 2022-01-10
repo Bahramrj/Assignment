@@ -18,6 +18,10 @@ footer {
     margin-top: auto;
 }
 
+.text {
+    color: black;
+}
+
 .topnav {
     text-align: center;
     overflow: hidden;
@@ -27,12 +31,10 @@ footer {
     padding-right: 10%;
     padding-left: 10%;
     
-    border-style: solid;
+    border: black solid 2px;
     border-top: none;
     border-left: none;
     border-right: none;
-    border-color: black;
-    border-width: 2px;
 }
 
 .navlink {
@@ -63,38 +65,51 @@ footer {
 }
 
 .live-news {
-    border-style: solid;
+    border: black solid 2px;
     border-top: none;
     border-left: none;
     border-right: none;
-    border-color: black;
-    border-width: 2px;
 }
 
-.news-table {
-    border-style: solid;
+.news {
+    border: black solid 2px;
     border-top: none;
     border-left: none;
     border-right: none;
-    border-color: black;
-    border-width: 2px;
+    padding-bottom: 5%;
 }
 
-.prducts {
-    padding-bottom: 0;
+.container {
+    margin: 0 auto;
+    width:60%;
+
+    padding-top:5%;
+    padding-left:0px;
+    padding-right:0px;
+
 }
 
-.prducts-table {
-    padding-bottom: 0;
+.container#news {
+    width: 60%;
 }
 
-.pt-row {
-    padding-bottom: 0;
+.mix-table {
+    width: 100%;
+}
+.mix-row {
+    padding-top: 10px;
 }
 
-.pt-block {
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
+.mix-block {
+    border: black solid 2px;
+    padding: 10px;
+}
+
+.product-link {
     text-decoration: none;
+    color: black;
+}
+
+.text#hottest {
+    font-size: x-large;
 }
