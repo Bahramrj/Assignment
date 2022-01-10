@@ -79,3 +79,22 @@ footer {
     border-color: black;
     border-width: 2px;
 }
+
+.prducts {
+    padding-bottom: 0;
+}
+
+.prducts-table {
+    padding-bottom: 0;
+}
+
+.pt-row {
+    padding-bottom: 0;
+}
+
+.pt-block {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    text-decoration: none;
+}
