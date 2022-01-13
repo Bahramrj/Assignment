@@ -5,12 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Gamerex</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .fa {
+          padding: 20px;
+          font-size: 30px;
+          width: 30px;
+          text-align: center;
+          text-decoration: none;
+          margin: 5px 2px;
+          border-radius: 50%;
+        }
+        
+        .fa:hover {
+            opacity: 0.7;
+        }
+        
+        .fa-facebook {
+          background: #3B5998;
+          color: white;
+        }
+        
+        .fa-twitter {
+          background: #55ACEE;
+          color: white;
+        }
+        
+        .fa-instagram {
+          background: #125688;
+          color: white;
+        }
+        </style>
 </head>
 
 <body>
 <div class="topnav" id="topnav">
-    <a href="home.html"><img class="logo" src="assets/logo.svg"></a>
-    <a href="home.html" class="logo title">Gamerex</a>
+    <img class="logo" src="assets/logo.svg">
+    <span class="logo title">Gamerex</span>
 
     <a href="about.html"        class="navlink">        About us</a>
     <a href="products.html"     class="navlink">        Store</a>
@@ -77,14 +109,47 @@
 
 <footer class="footer">
     <span>
-    <div class="email">
-        <p>Email NewsLetter</p>
-        <div class="input-group center">
-            <input class="email-input" type="email" value="" required/>
-            <input class="sign-up" type="submit" value="Sign up"/>
-        </div>
-    </div>
-
+    <table class="" id="footer">
+        <tr>
+            <td>
+                <div class="footer-container" id="info">
+                    <img class="logo" src="assets/logo.svg">
+                    <p class="text"></p>
+                    <label class="text">We run a small store that selling video games, and any thing related to video game for now we need a website that can sell our video game Discs online. and to make it more interesting share some news about video game on our website.</label>
+                </div>
+            </td>
+            <td>
+                <div class="footer-container" id="email">
+                    <p class="text">Email NewsLetter</p>
+                    <div class="input-group center">
+                        <input class="sub" id="" type="email" value="" required/>
+                        <input class="sub" id="button" type="submit" value="SUBSCRIBE"/>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="footer-container" id="socials">
+                    <table>
+                        <tr>
+                            <td>
+                                <a href="#" class="fa fa-facebook"></a>     
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#" class="fa fa-twitter"></a>     
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#" class="fa fa-instagram"></a>     
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+        </tr>
+    </table>
     
         
     </span>

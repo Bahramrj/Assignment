@@ -18,6 +18,11 @@ footer {
     margin-top: auto;
 }
 
+.footer-container {
+    width: 100%;
+    max-width: 200px;
+}
+
 .text {
     color: black;
 }
@@ -50,7 +55,7 @@ footer {
 
 .logo {
     float: left;
-    max-height: 50px;
+    max-height: 70px;
     padding-right: 20px;
 }
 
@@ -96,6 +101,11 @@ footer {
     width: 60%;
 }
 
+#footer {
+    margin: 0 auto;
+    width: 80%;
+}
+
 .mix-table {
     width: 100%;
 }
@@ -115,4 +125,18 @@ footer {
 
 .text#hottest {
     font-size: x-large;
+}
+
+sub {
+    padding: 10px;
+}
+
+.sub#button {
+    background-color: rgb(97, 97, 216);
+    border: black solid 1px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 40px;
 }
