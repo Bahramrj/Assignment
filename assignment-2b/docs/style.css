@@ -71,6 +71,32 @@ footer {
     border-right: none;
 }
 
+#news-banner {
+
+    font-size: x-large;
+}
+
+#author-pic {
+    float:left;
+    max-height: 50px;
+    position:relative;
+}
+
+.author {
+    font-size: larger;
+    color: black;
+    padding-top: 10%;
+}
+
+#author-name {
+   padding-top: 50px;
+}
+
+.nav-arrows {
+    max-height: 50px;
+    float: right;
+}
+
 .news {
     border: black solid 2px;
     border-top: none;
@@ -89,6 +115,7 @@ footer {
 
 }
 .container.background {
+    padding: 5%;
     background-image: url("assets/");
 }
 
