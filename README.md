@@ -136,23 +136,27 @@ Source: https://de.wikipedia.org/wiki/DayZ
         <th>Responsible person</th>
     </tr>
     <tr>
-        <th>x html pages (Desktop version)</th>
-        <th>-</th>
+        <th>Homepage</th>
+        <th>Tom Weigel, Jan-Niklas Grund</th>
     </tr>
     <tr>
-        <th>Webpages mobile & tablet version</th>
-        <th>-</th>
+        <th>6 News Pages</th>
+        <th>Jan-Niklas Grund</th>
     </tr>
     <tr>
-        <th>CSS Styling</th>
-        <th>-</th>
+        <th>6 Product Pages</th>
+        <th>Tom Weigel</th>
     </tr>
     <tr>
-        <th>Prototype (home.html desktop version)</th>
-        <th>-</th>
+        <th>News Archives</th>
+        <th>Jan-Niklas Grund</th>
     </tr>
     <tr>
-        <th>Prototype (home.html mobile/tablet version)</th>
-        <th>-</th>
+        <th>Products Overview</th>
+        <th>Tom Weigel</th>
+    </tr>
+    <tr>
+        <th>About Us</th>
+        <th>Tom Weigel, Jan-Niklas Grund</th>
     </tr>
 </table>
