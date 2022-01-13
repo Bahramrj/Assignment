@@ -88,6 +88,9 @@ footer {
     padding-right:0px;
 
 }
+.container.background {
+    background-image: url("assets/");
+}
 
 .container#news {
     width: 60%;
