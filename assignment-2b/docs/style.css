@@ -167,3 +167,8 @@ sub {
     display: inline-block;
     padding: 8px 40px;
 }
+
+.footer-container#email {
+    padding-bottom: 50px;
+    border-bottom: black solid 1px;
+}
