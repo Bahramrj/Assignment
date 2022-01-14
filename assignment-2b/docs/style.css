@@ -172,3 +172,30 @@ sub {
     padding-bottom: 50px;
     border-bottom: black solid 1px;
 }
+
+/* CSS for news articles */
+.article {
+    border: black solid 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 5%;
+}
+
+.art-title {
+    font-size: xx-large;
+}
+
+.art-body#news1 {
+    background-image: url("assets/news/news-1-forbidden-west.png");
+}
+.art-body#news2 {
+    background-image: url("assets/news/news-2-league-of-legends.jpg");
+}
+.art-body#news3 {
+    background-image: url("assets/news/news-3-gran-turismo.jpeg");
+}
+.art-container {
+    margin: 0 auto;
+    width:80%;
+}
