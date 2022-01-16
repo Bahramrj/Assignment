@@ -16,6 +16,7 @@ footer {
     position: relative;
     height: 25px;
     margin-top: auto;
+    border-top: black solid 2px;
 }
 
 .footer-container {
@@ -25,6 +26,8 @@ footer {
 
 .text {
     color: black;
+    text-decoration: none;
+    ;
 }
 
 .topnav {
@@ -103,16 +106,15 @@ footer {
 }
 
 .news {
-    border: black solid 2px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
+    
     padding-bottom: 5%;
 }
 
 .container {
     margin: 0 auto;
     width:60%;
+
+    size: relative;
 
     padding-top:5%;
     padding-left:0px;
@@ -150,6 +152,52 @@ footer {
     color: black;
 }
 
+.product-description {
+    font-size: larger;
+}
+
+#product-title {
+    color: black;
+    font-size: x-large;
+    padding-bottom: 3%;
+}
+
+.product-picture {
+    max-height: 600px;
+    float: left;
+    padding-bottom: 5%;
+}
+
+.products-table {
+    width: 100%;
+    text-decoration: none;
+}
+
+.product-overview-picture {
+    max-height: 250px;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.product-title-table {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+}
+.products-left {
+    
+}
+
+.products-mid {
+    
+}
+
+.products-right {
+    
+}
+
 .text#hottest {
     font-size: x-large;
 }
@@ -175,10 +223,10 @@ sub {
 
 /* CSS for news articles */
 .article {
-    border: black solid 2px;
+    /*border: black solid 2px;
     border-top: none;
     border-left: none;
-    border-right: none;
+    border-right: none;*/
     padding-bottom: 5%;
 }
 
