@@ -6,6 +6,37 @@
 GitHub: https://github.com/Bahramrj/Assignment.git
 
 -----------------------------
+
+### Division of work
+<table>
+    <tr>
+        <th>Task</th>
+        <th>person</th>
+    </tr>
+    <tr>
+        <th>CSS structure</th>
+        <th>Felix, Bahram</th>
+    </tr>
+    <tr>
+        <th>3 Product,about,index,shop</th>
+        <th>Bahram </th>
+    </tr>
+    <tr>
+        <th>3 Product,contacts,index</th>
+        <th>Felix</th>
+    </tr>
+    <tr>
+        <th>Style.css Desktop</th>
+        <th>Felix</th>
+    </tr>
+    <tr>
+        <th>Styles.css Responsive</th>
+        <th>Bahram</th>
+    </tr>
+</table>
+
+
+-----------------------------
 **Business info**\
 
 ```
