@@ -187,16 +187,9 @@ footer {
     text-decoration: none;
     font-size: large;
 }
-.products-left {
-    
-}
 
-.products-mid {
-    
-}
-
-.products-right {
-    
+.news-picture {
+    max-height: 200px;
 }
 
 .text#hottest {
