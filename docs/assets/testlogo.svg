@@ -1,0 +1,22 @@
+<svg version="1.1" height="200" width="400" xmlns="http://www.w3.org/2000/svg">
+ <!-- BackGround --><rect width="400" height="200" style="fill:rgb(255,255,255);" />
+
+ <!-- N -->
+ <!--senkrecht--><line x1="20" y1="20" x2="20" y2="180" style="stroke:rgb(0,0,0);stroke-width:3" />
+ <!--schief--><line x1="20" y1="20" x2="100" y2="180" style="stroke:rgb(0,0,0);stroke-width:3" />
+ <!--senkrecht--><line x1="100" y1="20" x2="100" y2="180" style="stroke:rgb(0,0,0);stroke-width:3" /> 
+
+ <!-- I -->
+ <!--senkrecht--><line x1="150" y1="20" x2="150" y2="180" style="stroke:rgb(0,0,0);stroke-width:3" />
+
+ <!-- C -->
+ <!--senkrecht--><line x1="200" y1="20" x2="200" y2="180" style="stroke:rgb(0,0,0);stroke-width:3" />
+ <!--waagerecht--><line x1="200" y1="20" x2="270" y2="20" style="stroke:rgb(0,0,0);stroke-width:3" />
+ <!--waagerecht--><line x1="200" y1="180" x2="270" y2="180" style="stroke:rgb(0,0,0);stroke-width:3" />
+ 
+ <!-- E -->
+ <!--senkrecht--><line x1="300" y1="20" x2="300" y2="180" style="stroke:rgb(0,0,0);stroke-width:3" />
+ <!--waagerecht--><line x1="300" y1="20" x2="370" y2="20" style="stroke:rgb(0,0,0);stroke-width:3" />
+ <!--waagerecht--><line x1="300" y1="100" x2="360" y2="100" style="stroke:rgb(0,0,0);stroke-width:3" />
+ <!--waagerecht--><line x1="300" y1="180" x2="370" y2="180" style="stroke:rgb(0,0,0);stroke-width:3" />    
+</svg>
