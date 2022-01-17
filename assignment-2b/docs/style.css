@@ -1,0 +1,247 @@
+body {
+    background-color: white;
+    color: white;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    width: 100%;
+    background-color: white;
+    color: white;
+    text-align: center;
+    clear: both;
+    position: relative;
+    height: 25px;
+    margin-top: auto;
+    border-top: black solid 2px;
+}
+
+.footer-container {
+    width: 100%;
+    max-width: 200px;
+}
+
+.text {
+    color: black;
+    text-decoration: none;
+    ;
+}
+
+.topnav {
+    text-align: center;
+    overflow: hidden;
+    background-color: white;
+    height: 100%;
+    padding-top: 10px;
+    padding-right: 10%;
+    padding-left: 10%;
+    
+    border: black solid 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.navlink {
+    width: 100px;
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: large;
+}
+
+.logo {
+    float: left;
+    max-height: 70px;
+    padding-right: 20px;
+}
+
+.logo.title {
+    padding-top: 5px;
+    width: 100px;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+.live-news {
+    border: black solid 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+#news-banner {
+    color: #a1d4c7;
+    font-size: x-large;
+}
+
+#author-pic {
+    float:left;
+    max-height: 50px;
+    position:relative;
+}
+
+.author {
+    font-size: larger;
+    color: black;
+    padding-top: 10%;
+}
+
+#author-name {
+    color: #a1d4c7;
+    padding-top: 50px;
+}
+
+.nav-arrows {
+    max-height: 50px;
+    float: right;
+}
+
+.news {
+    
+    padding-bottom: 5%;
+}
+
+.container {
+    margin: 0 auto;
+    width:60%;
+
+    size: relative;
+
+    padding-top:5%;
+    padding-left:0px;
+    padding-right:0px;
+
+}
+.container.background {
+    padding: 5%;
+    background-image: url("assets/news/news-2-league-of-legends.jpg");
+}
+
+.container#news {
+    width: 60%;
+}
+
+#footer {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.mix-table {
+    width: 100%;
+}
+.mix-row {
+    padding-top: 10px;
+}
+
+.mix-block {
+    border: black solid 2px;
+    padding: 10px;
+}
+
+.product-link {
+    text-decoration: none;
+    color: black;
+}
+
+.product-description {
+    font-size: larger;
+}
+
+#product-title {
+    color: black;
+    font-size: x-large;
+    padding-bottom: 3%;
+}
+
+.product-picture {
+    max-height: 600px;
+    float: left;
+    padding-bottom: 5%;
+}
+
+.products-table {
+    width: 100%;
+    text-decoration: none;
+    padding-bottom: 5%;
+}
+
+.product-overview-picture {
+    max-height: 350px;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.product-title-table {
+    text-align: center;
+    font-size: larger;
+}
+
+.news-picture {
+    max-height: 200px;
+}
+
+#headline {
+    font-size: x-large;
+    color: black;
+    padding-bottom: 5%;
+}
+
+#about-text {
+    font-size: larger;
+}
+
+.text#hottest {
+    font-size: x-large;
+}
+
+sub {
+    padding: 10px;
+}
+
+.sub#button {
+    background-color: rgb(97, 97, 216);
+    border: black solid 1px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 40px;
+}
+
+.footer-container#email {
+    padding-bottom: 50px;
+    border-bottom: black solid 1px;
+}
+
+/* CSS for news articles */
+.article {
+    /*border: black solid 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;*/
+    padding-bottom: 5%;
+}
+
+.art-title {
+    font-size: xx-large;
+}
+
+.art-picture {
+    max-width: 80%;
+}
+
+.art-container {
+    margin: 0 auto;
+    width:80%;
+}
