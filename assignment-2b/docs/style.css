@@ -192,6 +192,16 @@ footer {
     max-height: 200px;
 }
 
+#headline {
+    font-size: x-large;
+    color: black;
+    padding-bottom: 5%;
+}
+
+#about-text {
+    font-size: larger;
+}
+
 .text#hottest {
     font-size: x-large;
 }
