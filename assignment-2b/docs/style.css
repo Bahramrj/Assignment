@@ -175,17 +175,15 @@ footer {
 }
 
 .product-overview-picture {
-    max-height: 250px;
+    max-height: 350px;
     display: block;
     margin-left:auto;
     margin-right: auto;
 }
 
 .product-title-table {
-    color: black;
     text-align: center;
-    text-decoration: none;
-    font-size: large;
+    font-size: larger;
 }
 
 .news-picture {
