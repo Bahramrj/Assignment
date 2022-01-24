@@ -241,3 +241,10 @@ sub {
     margin: 0 auto;
     width:80%;
 }
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
