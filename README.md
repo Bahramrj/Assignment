@@ -190,4 +190,12 @@ Source: https://de.wikipedia.org/wiki/DayZ
         <th>About Us</th>
         <th>Tom Weigel, Jan-Niklas Grund</th>
     </tr>
+     <tr>
+        <th>Accessibility</th>
+        <th>Tom Weigel</th>
+    </tr>
+    <tr>
+        <th>SEO</th>
+        <th>Jan-Niklas Grund</th>
+    </tr>
 </table>
