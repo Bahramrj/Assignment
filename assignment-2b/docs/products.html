@@ -1,10 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Gamerex | Store</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 
     <!--icons provided by client-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -42,7 +50,7 @@
 
 <body>
 <nav class="topnav" id="topnav">
-    <a href="home.html"><img class="logo" src="assets/logo.svg"></a>
+    <a href="home.html"><img class="logo" src="assets/logo.svg" alt="Gamerex logo"></a>
     <span class="logo title">Gamerex</span>
 
     <a href="about.html"        class="navlink">        About us</a>
@@ -53,48 +61,43 @@
 
 <main>
 <div class="container">
-    <table class="products-table">
-        <tr class="products-row">
-            <td class="products-left">
-                <a class="product-link" href="p1001.html">
-                    <p class="product-title-table">Death Stranding Directors Cut</p>
-                    <img class="product-overview-picture" src="assets/product-pics/1001-Death-Stranding-Directors-Cut--PS5.jpeg">
-                </a>
-            </td>
-            <td class="products-mid">
-                <a class="product-link" href="p1002.html">
-                    <p class="product-title-table">Ratchet and Clank Rift Apart</p>
-                    <img class="product-overview-picture" src="assets/product-pics/1002-Ratchet-and-Clank-Rift-Apart-PS5.jpeg">
-                </a>
-            </td>
-            <td class="products-right">
-                <a class="product-link" href="p1003.html">
-                    <p class="product-title-table">Marvels Spider Man Miles Morales Standard</p>
-                    <img class="product-overview-picture" src="assets/product-pics/1003-Marvels-Spider-Man-Miles-Morales-Standard-PS5.jpeg">
-                </a>
-            </td>
-        </tr>
-        <tr class="products-row">
-            <td class="products-left">
-                <a class="product-link" href="p2001.html">
-                    <p class="product-title-table">Forza Horizons 5</p>
-                    <img class="product-overview-picture" src="assets/product-pics/2001-Forza-Horizons-5--Xbox.jpeg">
-                </a>
-            </td>
-            <td class="products-mid">
-                <a class="product-link" href="p2002.html">
-                    <p class="product-title-table">Halo Infinite</p>
-                    <img class="product-overview-picture" src="assets/product-pics/2002-Halo-Infinite-Xbox.jpeg">
-                </a>
-            </td>
-            <td class="products-right">
-                <a class="product-link" href="p2003.html">
-                    <p class="product-title-table">Resident Evil Village</p>
-                    <img class="product-overview-picture" src="assets/product-pics/2003-Resident-Evil-Village-Xbox.jpeg">
-                </a>
-            </td>
-        </tr>
-    </table>
+    <div class="flex-container">
+        <div><a class="product-link" href="product-death-stranding.html">
+            <h2 class="product-title-table">Death Stranding Directors Cut</h2>
+            <img class="product-overview-picture" src="assets/product-pics/1001-Death-Stranding-Directors-Cut--PS5.jpeg" alt="product pic 'Death Stranding Directors Cut'"></img>
+            </a>
+        </div>
+        <div><a class="product-link" href="product-ratchet-clank.html">
+            <h2 class="product-title-table">Ratchet and Clank Rift Apart</h2>
+            <img class="product-overview-picture" src="assets/product-pics/1002-Ratchet-and-Clank-Rift-Apart-PS5.jpeg" alt="product pic 'Ratchet and Clank Rift Apart'"></img>
+            </a>
+        </div>
+        <div><a class="product-link" href="product-spiderman-miles-morales.html">
+            <h2 class="product-title-table">Marvels Spider Man Miles Morales Standard</h2>
+            <img class="product-overview-picture" src="assets/product-pics/1003-Marvels-Spider-Man-Miles-Morales-Standard-PS5.jpeg" alt="product pic 'Marvels Spider Man Miles Morales'"></img>
+            </a>
+        </div>
+        <div>
+            <a class="product-link" href="product-forza-horizon.html">
+                <h2 class="product-title-table">Forza Horizons 5</h2>
+                <img class="product-overview-picture" src="assets/product-pics/2001-Forza-Horizons-5--Xbox.jpeg" alt="product pic 'Forza Horizon 5'"></img>
+            </a>
+        </div>
+        <div>
+            <a class="product-link" href="product-halo-infinite.html">
+                <h2 class="product-title-table">Halo Infinite</h2>
+                <img class="product-overview-picture" src="assets/product-pics/2002-Halo-Infinite-Xbox.jpeg" alt="product pic 'Halo Infinite'"></img>
+            </a>
+        </div>
+        <div>
+            <a class="product-link" href="product-resident-village.html">
+                <h2 class="product-title-table">Resident Evil Village</h2>
+                <img class="product-overview-picture" src="assets/product-pics/2003-Resident-Evil-Village-Xbox.jpeg" alt="product pic 'Resident Evil Village'"></img>
+            </a>
+        </div>
+
+    </div>
+
 </div>
 </main>
 
@@ -103,16 +106,16 @@
         <tr>
             <td>
                 <div class="footer-container" id="info">
-                    <a href="home.html"><img class="logo" src="assets/logo.svg"></a>
+                    <a href="home.html"><img class="logo" src="assets/logo.svg" alt="Gamerex logo"></a>
                     <p class="text"></p>
                     <label class="text">We run a small store that selling video games, and any thing related to video game for now we need a website that can sell our video game Discs online. and to make it more interesting share some news about video game on our website.</label>
                 </div>
             </td>
             <td>
                 <div class="footer-container" id="email">
-                    <p class="text">Email NewsLetter</p>
                     <div class="input-group center">
-                        <input class="sub" id="" type="email" value="" required/>
+                        <label class="sub" for="emailInput">Email Newsletter</label>
+                        <input class="sub" id="emailInput" type="email" value="" required/>
                         <input class="sub" id="button" type="submit" value="SUBSCRIBE"/>
                     </div>
                 </div>
@@ -122,17 +125,17 @@
                     <table>
                         <tr>
                             <td>
-                                <a href="#" class="fa fa-facebook"></a>     
+                                <a href="#" class="fa fa-facebook"><div class="icons">#</div></a>     
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <a href="#" class="fa fa-twitter"></a>     
+                                <a href="#" class="fa fa-twitter"><div class="icons">#</div></a>     
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <a href="#" class="fa fa-instagram"></a>     
+                                <a href="#" class="fa fa-instagram"><div class="icons">#</div></a>     
                             </td>
                         </tr>
                     </table>

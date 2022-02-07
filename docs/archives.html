@@ -1,10 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Gamerex | News</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 
     <!--icons provided by client-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -42,7 +50,7 @@
 
 <body>
 <nav class="topnav" id="topnav">
-    <a href="home.html"><img class="logo" src="assets/logo.svg"></a>
+    <a href="home.html"><img class="logo" src="assets/logo.svg" alt="Gamerex logo"></a>
     <span class="logo title">Gamerex</span>
 
     <a href="about.html"        class="navlink">        About us</a>
@@ -54,45 +62,46 @@
 <main>
 <div class="news"><!--big div for main parts-->
     <div class="container" id="news"><!--this week hottest-->
+        <h1 class="text">News Archive</h1>
         <table class="mix-table">
             <tr class="mix-row">
                 <td class="mix-block">
-                    <a href="art01.html" class="product-link">
-                        <p>New gameplay of Horizon Forbidden West</p>
+                    <a href="article-horizon.html" class="product-link">
+                        <h2>New gameplay of Horizon Forbidden West</h2>
                         <p>With the State of Play devoted to showing several minutes of these exclusive PlayStation games, Sony has shown that it sometimes wants to draw the gamer's attention to one of its first-party game development creations.</p>
                     </a>
                 </td>
                 <td class="mix-block">
-                    <a href="art02.html" class="product-link">
-                        <p>The first video of the new League of Legends fighting game</p>
+                    <a href="article-lol-video.html" class="product-link">
+                        <h2>The first video of the new League of Legends fighting game</h2>
                         <p>Now the Arcane series has stunned the audience, League of Legends games together have more than 180 million monthly active users, two new games have been released in this series, and the whole League of Legends is having a wonderful time.</p>
                     </a>
                 </td>
             </tr>
             <tr class="mix-row">
                 <td class="mix-block">
-                    <a href="art03.html" class="product-link">
-                        <p>High details of the racetracks in the new trailer of Gran Turismo 7</p>
+                    <a href="article-gran-turismo.html" class="product-link">
+                        <h2>High details of the racetracks in the new trailer of Gran Turismo 7</h2>
                         <p>PlayStation explained in a video that Gran Turismo 7 has taken the series to a new level of realism in racetrack design.</p>
                     </a>
                 </td>
                 <td class="mix-block">
-                    <a href="art04.html" class="product-link">
-                        <p>League of Legends</p>
+                    <a href="article-lol.html" class="product-link">
+                        <h2>League of Legends</h2>
                         <p>Before starting a round, a player can search for teammates and opponents using an automatic matchmaking system.</p>
                     </a>
                 </td>
             </tr>
             <tr class="mix-row">
                 <td class="mix-block">
-                    <a href="art05.html" class="product-link">
-                        <p>Teamfight Tactics</p>
+                    <a href="article-tft.html" class="product-link">
+                        <h2>Teamfight Tactics</h2>
                         <p>Teamfight Tactics (TFT) is an auto battler game developed and published by Riot Games.</p>
                     </a>
                 </td>
                 <td class="mix-block">
-                    <a href="art06.html" class="product-link">
-                        <p>DayZ</p>
+                    <a href="article-dayz.html" class="product-link">
+                        <h2>DayZ</h2>
                         <p>The player starts randomly on the map, but usually on a stretch of beach in the fictional post-Soviet state of Chernarus or Livonia (paid DLC), whose inhabitants have been turned into zombies by an unexplained viral disease.</p>
                     </a>
                 </td>
@@ -107,16 +116,16 @@
         <tr>
             <td>
                 <div class="footer-container" id="info">
-                    <a href="home.html"><img class="logo" src="assets/logo.svg"></a>
+                    <a href="home.html"><img class="logo" src="assets/logo.svg" alt="Gamerex logo"></a>
                     <p class="text"></p>
                     <label class="text">We run a small store that selling video games, and any thing related to video game for now we need a website that can sell our video game Discs online. and to make it more interesting share some news about video game on our website.</label>
                 </div>
             </td>
             <td>
                 <div class="footer-container" id="email">
-                    <p class="text">Email NewsLetter</p>
                     <div class="input-group center">
-                        <input class="sub" id="" type="email" value="" required/>
+                        <label class="sub" for="emailInput">Email Newsletter</label>
+                        <input class="sub" id="emailInput" type="email" value="" required/>
                         <input class="sub" id="button" type="submit" value="SUBSCRIBE"/>
                     </div>
                 </div>
@@ -126,17 +135,17 @@
                     <table>
                         <tr>
                             <td>
-                                <a href="#" class="fa fa-facebook"></a>     
+                                <a href="#" class="fa fa-facebook"><div class="icons">#</div></a>     
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <a href="#" class="fa fa-twitter"></a>     
+                                <a href="#" class="fa fa-twitter"><div class="icons">#</div></a>     
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <a href="#" class="fa fa-instagram"></a>     
+                                <a href="#" class="fa fa-instagram"><div class="icons">#</div></a>     
                             </td>
                         </tr>
                     </table>
