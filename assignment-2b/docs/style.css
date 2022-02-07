@@ -80,7 +80,7 @@ footer {
 }
 
 #news-banner {
-    color: #a1d4c7;
+    color: white;
     font-size: x-large;
 }
 
@@ -97,7 +97,7 @@ footer {
 }
 
 #author-name {
-    color: #a1d4c7;
+    color: white;
     padding-top: 50px;
 }
 
@@ -125,6 +125,8 @@ footer {
 .container.background {
     padding: 5%;
     background-image: url("assets/news/news-2-league-of-legends.jpg");
+    color: black;
+    background-color: black;
 }
 
 .container#news {
@@ -201,8 +203,9 @@ footer {
     font-size: larger;
 }
 
-sub {
+.sub {
     padding: 10px;
+    color: black;
 }
 
 .sub#button {
@@ -248,3 +251,7 @@ sub {
     flex-wrap: wrap;
     justify-content: center;
   }
+
+.icons {
+    opacity: 0;
+}
